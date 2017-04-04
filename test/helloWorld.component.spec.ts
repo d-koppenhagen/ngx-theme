@@ -7,10 +7,14 @@ import { expect } from 'chai';
 import { HelloWorldComponent } from './../src/helloWorld.component';
 import { NgxThemeModule } from '../src';
 
-describe('theme-hello-world component', () => {
+describe('<%- selectorPrefix %>-hello-world component', () => {
 
   beforeEach(() => {
-    TestBed.configureTestingModule({imports: [NgxThemeModule.forRoot()]});
+    TestBed.configureTestingModule({
+      imports: [
+        NgxThemeModule.forRoot()
+      ]
+    });
   });
 
   it('should say hello world', () => {

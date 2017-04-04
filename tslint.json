@@ -6,7 +6,7 @@
     "class-name": true,
     "curly": false,
     "eofline": false,
-    "indent": "spaces",
+    "indent": ["tabs"],
     "max-line-length": [
       true,
       140
@@ -36,7 +36,7 @@
       true,
       "single"
     ],
-    "semicolon": true,
+    "semicolon": [true],
     "triple-equals": [
       true,
       "allow-null-check"
