@@ -16,15 +16,15 @@ export const layoutPaths: any = {
 };
 
 export class ColorHelper {
-  static shade = (color: string, weight: number) => {
+  static shade(color: string, weight: number) {
     return ColorHelper.mix('#000000', color, weight);
   }
 
-  static tint = (color: string, weight: number) => {
+  static tint(color: string, weight: number) {
     return ColorHelper.mix('#ffffff', color, weight);
   }
 
-  static hexToRgbA = (hex: string, alpha: string) => {
+  static hexToRgbA(hex: string, alpha: string) {
     let c: any;
     if (/^#([A-Fa-f0-9]{3}){1,2}$/.test(hex)) {
       c = hex.substring(1).split('');
@@ -37,7 +37,7 @@ export class ColorHelper {
     throw new Error('Bad Hex');
   }
 
-  static mix = (color1: string, color2: string, weight: number) => {
+  static mix(color1: string, color2: string, weight: number) {
 
     let d2h: any = (d) => d.toString(16);
     let h2d: any = (h) => parseInt(h, 16);
