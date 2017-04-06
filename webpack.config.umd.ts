@@ -13,7 +13,7 @@ export default {
   },
   output: {
     path: path.join(__dirname, 'dist', 'bundles'),
-    filename: './ngx-theme.js',
+    filename: '[name].js',
     libraryTarget: 'umd',
     library: 'ngxTheme'
   },
