@@ -1,4 +1,4 @@
-// tslint:disable-next-line:typedef
+// tslint:disable:typedef
 export const IMAGES_ROOT = 'assets/img/';
 
 export const layoutSizes: any = {
