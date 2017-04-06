@@ -19,7 +19,7 @@ https://phillipcurl.github.io/ngx-theme/demo/
 
 ## About
 
-
+An Angular module for creating functional, type-safe design systems, build on top of Typestyle
 
 ## Installation
 
