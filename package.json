@@ -1,6 +1,6 @@
 {
   "name": "ngx-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Angular module for creating functional, type-safe design systems, build on top of Typestyle",
   "keywords": [
     "angular",
