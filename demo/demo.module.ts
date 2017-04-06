@@ -5,7 +5,7 @@ import { DemoComponent } from './demo.component';
 
 @NgModule({
   declarations: [DemoComponent],
-  imports: [BrowserModule, NgxThemeModule.forRoot()],
+  imports: [BrowserModule, NgxThemeModule],
   bootstrap: [DemoComponent]
 })
 export class DemoModule {}

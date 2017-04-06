@@ -12,7 +12,7 @@ describe('<%- selectorPrefix %>-hello-world component', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [
-        NgxThemeModule.forRoot()
+        NgxThemeModule
       ]
     });
   });
