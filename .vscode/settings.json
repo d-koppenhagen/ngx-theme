@@ -1,3 +1,5 @@
 {
-  "vsicons.presets.angular": true
+  "vsicons.presets.angular": false,
+  "angulardoc.repoId": "7b93e694-194f-4061-aba9-3849c8e36eb7",
+  "angulardoc.lastSync": 0
 }

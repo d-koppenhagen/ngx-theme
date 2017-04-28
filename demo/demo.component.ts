@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
-import { ColorService } from './../src';
+import { ColorService, Styles } from './../src';
 
 @Component({
   selector: 'theme-demo-app',
-  template: '<div class="this.colors.getPrimaryColor()"><theme-hello-world></theme-hello-world></div>'
+  styles: [
+    Styles.BasicStyles.baseElementStyles
+  ],
+  template: `<div class="${Styles.AlignStyles.alignTopClass}"><theme-hello-world></theme-hello-world></div>`
 })
 export class DemoComponent {
   constructor(public colors: ColorService) {}
